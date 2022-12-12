@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sandbox_Tiles_Sprite_Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 392998787, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: -1273101939, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: 1379649650, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: -1606395376, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: -286239795, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: -1228397568, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: 1713037467, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: 1104468294, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: -592611967, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: 16370151, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: 987881017, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: -1358537666, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: 1234842989, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: 448126668, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: 2140637115, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: -334213129, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: 265630059, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: 1025663970, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: -442034215, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: -2100090962, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: 1812638226, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: -1685266875, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: -1352588213, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: -253371950, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: -1974157067, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: -1518970178, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: -1287947722, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: -642237558, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: -1685850252, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: 1082267334, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: -1395616239, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: -1337055253, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: -363676367, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: -1109045503, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: 117199662, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: -1088373034, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: -1919006677, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: 1184092145, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: 894262941, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: 632810311, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: -1192863529, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: 582203629, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: -494098072, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: -148522296, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: -1062939489, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: 1378384078, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: 1043041953, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  - {fileID: -725588291, guid: 578857017353a4349912fb44ce1747a9, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - isometric-sandbox-sheet_30
+  - isometric-sandbox-sheet_31
+  - isometric-sandbox-sheet_32
+  - isometric-sandbox-sheet_33
+  - isometric-sandbox-sheet_23
+  - isometric-sandbox-sheet_34
+  - isometric-sandbox-sheet_22
+  - isometric-sandbox-sheet_35
+  - isometric-sandbox-sheet_21
+  - isometric-sandbox-sheet_45
+  - isometric-sandbox-sheet_36
+  - isometric-sandbox-sheet_20
+  - isometric-sandbox-sheet_16
+  - isometric-sandbox-sheet_44
+  - isometric-sandbox-sheet_37
+  - isometric-sandbox-sheet_27
+  - isometric-sandbox-sheet_17
+  - isometric-sandbox-sheet_47
+  - isometric-sandbox-sheet_38
+  - isometric-sandbox-sheet_26
+  - isometric-sandbox-sheet_14
+  - isometric-sandbox-sheet_46
+  - isometric-sandbox-sheet_39
+  - isometric-sandbox-sheet_25
+  - isometric-sandbox-sheet_15
+  - isometric-sandbox-sheet_41
+  - isometric-sandbox-sheet_24
+  - isometric-sandbox-sheet_12
+  - isometric-sandbox-sheet_40
+  - isometric-sandbox-sheet_13
+  - isometric-sandbox-sheet_43
+  - isometric-sandbox-sheet_10
+  - isometric-sandbox-sheet_42
+  - isometric-sandbox-sheet_29
+  - isometric-sandbox-sheet_11
+  - isometric-sandbox-sheet_28
+  - isometric-sandbox-sheet_18
+  - isometric-sandbox-sheet_19
+  - isometric-sandbox-sheet_3
+  - isometric-sandbox-sheet_2
+  - isometric-sandbox-sheet_1
+  - isometric-sandbox-sheet_0
+  - isometric-sandbox-sheet_7
+  - isometric-sandbox-sheet_6
+  - isometric-sandbox-sheet_5
+  - isometric-sandbox-sheet_4
+  - isometric-sandbox-sheet_9
+  - isometric-sandbox-sheet_8
+  m_RenderDataMap: {}
+  m_Tag: Sandbox_Tiles_Sprite_Atlas
+  m_IsVariant: 0

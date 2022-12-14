@@ -692,8 +692,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FollowSpeed: 1
   target: {fileID: 2071144005}
-  yOffset: -0.2
-  xOffset: 0.2
+  yOffset: 0.5
+  xOffset: 1
 --- !u!1 &2009284907
 GameObject:
   m_ObjectHideFlags: 0
@@ -935,7 +935,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2071144005}
-  - component: {fileID: 2071144004}
   - component: {fileID: 2071144003}
   - component: {fileID: 2071144002}
   - component: {fileID: 2071144001}
@@ -960,6 +959,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 1
   rb: {fileID: 2071144002}
+  frameRate: 6
+  spriteRenderer: {fileID: 2071144003}
+  NSprites:
+  - {fileID: 21300000, guid: 5cc8dfccc690b3641b169cdf801164c1, type: 3}
+  NeSprites:
+  - {fileID: 21300000, guid: 4c853fee21fa5b54d8c4ab5685de11d8, type: 3}
+  ESprites:
+  - {fileID: 21300000, guid: f47b8599ead2efa4cbc1091f95823d66, type: 3}
+  SeSprites:
+  - {fileID: 21300000, guid: 060c604776dd0e44a83c8c955383db4c, type: 3}
+  SSprites:
+  - {fileID: 21300000, guid: 51f573b5f6cd9a14c9e2ed6cc558f0b7, type: 3}
 --- !u!50 &2071144002
 Rigidbody2D:
   serializedVersion: 4
@@ -968,7 +979,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2071144000}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -978,9 +989,9 @@ Rigidbody2D:
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
+  m_SleepingMode: 0
+  m_CollisionDetection: 1
+  m_Constraints: 4
 --- !u!212 &2071144003
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1022,7 +1033,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 33272ee5039677c4e99e33d88d2c4235, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 51f573b5f6cd9a14c9e2ed6cc558f0b7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1033,22 +1044,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!70 &2071144004
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2071144000}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.0025082827, y: 0.0041879416}
-  m_Size: {x: 0.18395591, y: 0.3344531}
-  m_Direction: 0
 --- !u!4 &2071144005
 Transform:
   m_ObjectHideFlags: 0

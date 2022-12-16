@@ -18,6 +18,13 @@ public class PlayerMovement : MonoBehaviour
     public List<Sprite> SeSprites;
     public List<Sprite> SSprites;
 
+    public List<Sprite> Nidle;
+    public List<Sprite> Neidle;
+    public List<Sprite> Eidle;
+    public List<Sprite> Seidle;
+    public List<Sprite> Sidle;
+    
+
     float idleTime;
 
     Vector2 direction;
@@ -35,7 +42,7 @@ public class PlayerMovement : MonoBehaviour
         HandleSpriteFlip();//handle flip if east or west
 
         List<Sprite> directionSprites = GetSpriteDirection();//get sprites based on direction
-
+        
         if(directionSprites != null) {//if there is input
 
             float playTime = Time.time - idleTime;//time since walk start
@@ -47,6 +54,11 @@ public class PlayerMovement : MonoBehaviour
         } else {//no input, idle animation here?
 
             idleTime = Time.time;
+
+            //return to idle sprite direction facing
+            HandleSpriteFlip();
+
+            spriteRenderer.sprite = GetIdleDirection()[0];
         }
        
     }
@@ -96,6 +108,40 @@ public class PlayerMovement : MonoBehaviour
 
         return selectedSprites;
     }
+
+     List<Sprite> GetIdleDirection() {
+
+        List<Sprite> selectedSprites = null;
+
+        if(direction.y > 0){//north/ positive y   
+
+            if(Mathf.Abs(direction.x) > 0) {//east or west
+                selectedSprites = Neidle;
+
+            } else {//north neutral x
+                selectedSprites = Nidle;
+            }
+
+        } else if(direction.y < 0){//south/negative y   
+
+            if(Mathf.Abs(direction.x) > 0) {//east or west
+                selectedSprites = Seidle;
+
+            } else {//south neutral x
+                selectedSprites = Sidle;
+            }
+
+        } else {//neutral y
+            
+                if(Mathf.Abs(direction.x) > 0) {//east or west
+                    selectedSprites = Eidle;
+                }
+
+        }
+
+        return selectedSprites;
+    }
+    
 
    
 }

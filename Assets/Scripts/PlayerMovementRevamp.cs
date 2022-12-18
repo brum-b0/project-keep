@@ -17,9 +17,9 @@ public class PlayerMovementRevamp : MonoBehaviour
 
     private void FixedUpdate()
     {
-        moveH = Input.GetAxis("Horizontal") * moveSpeed;
-        moveV = Input.GetAxis("Vertical") * moveSpeed;
-        rb.velocity = new Vector2(moveH, moveV);
+        moveH = (Input.GetAxis("Horizontal") * moveSpeed) ;
+        moveV = (Input.GetAxis("Vertical") * moveSpeed)/2.0f;//lol
+        rb.velocity = new Vector2(moveH, moveV).normalized;
 
         Vector2 direction = new Vector2(moveH, moveV);
         FindObjectOfType<PlayerAnimation>().SetDirection(direction);

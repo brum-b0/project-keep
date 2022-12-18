@@ -18,7 +18,7 @@ public class PlayerMovementRevamp : MonoBehaviour
     private void FixedUpdate()
     {
         moveH = (Input.GetAxis("Horizontal") * moveSpeed) ;
-        moveV = (Input.GetAxis("Vertical") * moveSpeed)/2.0f;
+        moveV = (Input.GetAxis("Vertical") * moveSpeed)/2.0f;//lol
         rb.velocity = new Vector2(moveH, moveV).normalized;
 
         Vector2 direction = new Vector2(moveH, moveV);

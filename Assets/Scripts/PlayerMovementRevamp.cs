@@ -10,13 +10,11 @@ public class PlayerMovementRevamp : MonoBehaviour
 
 
 
-    private void Start()
-    {
+    private void Start() {
         rb = GetComponent<Rigidbody2D>();
     }
 
-    private void FixedUpdate()
-    {
+    private void FixedUpdate(){
         moveH = (Input.GetAxis("Horizontal") * moveSpeed) ;
         moveV = (Input.GetAxis("Vertical") * moveSpeed)/2.0f;//lol
         rb.velocity = new Vector2(moveH, moveV).normalized;

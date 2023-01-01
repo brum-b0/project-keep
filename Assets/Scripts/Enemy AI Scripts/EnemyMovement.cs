@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour{
     public Transform player;
+    public Animator animator; //Kitys Addition - Adds the animator to unity inspector
     public float moveSpeed = 5f;
     private Rigidbody2D rb;
     private Vector2 movement;

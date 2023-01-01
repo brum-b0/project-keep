@@ -24,6 +24,8 @@ public class EnemyMovement : MonoBehaviour{
     }
     private void FixedUpdate() {
         moveCharacter(movement);
+
+        animator.SetFloat("Speed", Mathf.Abs(moveSpeed));
     }
     void moveCharacter(Vector2 direction){
         rb.MovePosition((Vector2)transform.position + (direction * moveSpeed * Time.deltaTime));
